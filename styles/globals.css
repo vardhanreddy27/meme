@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f100;
+  text-align: center;
+  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: rgb(0, 0, 0);
+}#mydiv1 {
+  position: absolute;
+  z-index: 9;
+  padding-left: 42%;
+  background-color: #f1f1f100;
+  text-align: center;
+  
 }
 
-* {
-  box-sizing: border-box;
+#mydivheader1 {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  color: rgb(0, 0, 0);
 }
